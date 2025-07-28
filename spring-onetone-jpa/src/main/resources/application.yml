@@ -1,0 +1,13 @@
+ #datasrc properties
+ 
+spring:
+  datasource:
+    username: root
+    password: sqlroot@123#
+    url: jdbc:mysql://localhost:3306/spring
+#JPAprop
+
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
